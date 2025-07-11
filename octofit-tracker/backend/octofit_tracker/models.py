@@ -1,4 +1,4 @@
-from djongo import models
+from django import models
 
 class User(models.Model):
     _id = models.ObjectIdField()
