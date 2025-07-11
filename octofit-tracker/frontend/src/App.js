@@ -1,8 +1,5 @@
-
-
-
-
 import React, { useEffect, useState } from 'react';
+import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Activities from './components/Activities';
 import Leaderboard from './components/Leaderboard';
@@ -70,6 +67,13 @@ function App() {
           </Routes>
         </div>
       </div>
+      {/* Footer moderno */}
+      <footer className="footer mt-5 py-3">
+        <div className="container text-center">
+          <hr />
+          <span className="footer-text">OctoFit Tracker &copy; {new Date().getFullYear()} &mdash; Inspirado en GitHub</span>
+        </div>
+      </footer>
     </Router>
   );
 }
