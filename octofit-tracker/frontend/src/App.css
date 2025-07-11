@@ -1,0 +1,157 @@
+/* Footer moderno */
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 1.5rem 0;
+  font-size: 1rem;
+}
+.footer-text {
+  color: #fff;
+}
+body.dark-mode .footer {
+  background: #000;
+  color: #fff;
+}
+/* General styles for the application */
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #f6f8fa;
+  color: #24292f;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background: #0d1117;
+  color: #c9d1d9;
+}
+
+/* Navbar color for light mode */
+.navbar {
+  background-color: #24292f !important;
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #f6f8fa !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+body.dark-mode .navbar {
+  background-color: #161b22 !important;
+}
+
+body.dark-mode .navbar-brand, body.dark-mode .navbar-nav .nav-link {
+  color: #c9d1d9 !important;
+}
+body.dark-mode .navbar-brand:hover, body.dark-mode .navbar-nav .nav-link:hover {
+  color: #2da44e !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #24292f;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5 {
+  color: #c9d1d9;
+}
+
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(27,31,35,0.04);
+  margin: 2rem 0;
+}
+.table th {
+  background-color: #24292f;
+  color: #f6f8fa;
+  font-size: 1.1rem;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f6f8fa;
+}
+body.dark-mode .table {
+  background-color: #161b22;
+  color: #c9d1d9;
+}
+body.dark-mode .table th {
+  background-color: #0d1117;
+  color: #2da44e;
+}
+body.dark-mode .table-striped tbody tr:nth-of-type(odd) {
+  background-color: #161b22;
+}
+
+
+
+.btn-primary, .btn-primary:focus {
+  background-color: #2da44e !important;
+  border-color: #2da44e !important;
+  color: #fff !important;
+  border-radius: 6px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(27,31,35,0.04);
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary:hover {
+  background-color: #218838 !important;
+  border-color: #218838 !important;
+  color: #fff !important;
+}
+body.dark-mode .btn-primary, body.dark-mode .btn-primary:focus {
+  background-color: #238636 !important;
+  border-color: #238636 !important;
+  color: #c9d1d9 !important;
+}
+body.dark-mode .btn-primary:hover {
+  background-color: #2da44e !important;
+  border-color: #2da44e !important;
+  color: #fff !important;
+}
+
+
+
+a, .App-link {
+  color: #0969da;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #2da44e;
+  text-decoration: underline;
+}
+body.dark-mode a, body.dark-mode .App-link {
+  color: #2da44e;
+}
+body.dark-mode a:hover, body.dark-mode .App-link:hover {
+  color: #58a6ff;
+}
+
+
+
+.card {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(27,31,35,0.04);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+body.dark-mode .card {
+  background: #161b22;
+  color: #c9d1d9;
+}
+
+
+
+/* Favicon and logo animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
